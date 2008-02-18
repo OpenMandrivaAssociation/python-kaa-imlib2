@@ -1,6 +1,6 @@
 %define pkgname kaa-imlib2
 
-Summary: The Kaa Media Repository is a set of python modules related to media
+Summary: Set of python modules related to media
 Name: python-%{pkgname}
 Version: 0.2.3
 Release: %mkrel 1
