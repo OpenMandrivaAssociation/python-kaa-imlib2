@@ -3,7 +3,7 @@
 Summary: Set of python modules related to media
 Name: python-%{pkgname}
 Version: 0.2.3
-Release: %mkrel 5
+Release: %mkrel 6
 Source0: http://mesh.dl.sourceforge.net/sourceforge/freevo/%{pkgname}-%{version}.tar.gz
 License: LGPL
 URL: http://sourceforge.net/projects/freevo/
