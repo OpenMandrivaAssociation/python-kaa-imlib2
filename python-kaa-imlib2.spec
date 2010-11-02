@@ -3,7 +3,7 @@
 Summary: Set of python modules related to media
 Name: python-%{pkgname}
 Version: 0.2.3
-Release: %mkrel 6
+Release: %mkrel 7
 Source0: http://mesh.dl.sourceforge.net/sourceforge/freevo/%{pkgname}-%{version}.tar.gz
 License: LGPL
 URL: http://sourceforge.net/projects/freevo/
@@ -32,7 +32,8 @@ python setup.py install --root=$RPM_BUILD_ROOT --record=INSTALLED_FILES
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files -f INSTALLED_FILES
+%files 
 %defattr(-,root,root)
-
-
+%dir %py_platsitedir/kaa/imlib2
+%py_platsitedir/kaa/imlib2/*
+%py_platsitedir/kaa_imlib2-%{version}-*.egg-info
