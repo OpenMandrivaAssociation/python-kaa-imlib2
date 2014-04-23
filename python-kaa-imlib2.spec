@@ -8,7 +8,7 @@ Source0: http://mesh.dl.sourceforge.net/sourceforge/freevo/%{pkgname}-%{version}
 License: LGPL
 URL: http://sourceforge.net/projects/freevo/
 Group: Development/Python
-BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+
 BuildRequires:	python-devel
 BuildRequires:	python-kaa-base
 BuildRequires:	imlib2-devel
