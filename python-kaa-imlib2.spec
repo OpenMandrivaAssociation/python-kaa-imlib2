@@ -13,7 +13,7 @@ BuildRequires:	pkgconfig(python)
 BuildRequires:	python-kaa-base
 BuildRequires:	imlib2-devel
 BuildRequires:	libpng-devel
-BuildRequires:	freetype2-devel
+BuildRequires:	freetype-devel
 Requires:	python-kaa-base
 Requires:	imlib2
 
