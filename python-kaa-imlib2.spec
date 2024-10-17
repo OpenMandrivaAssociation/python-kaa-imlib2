@@ -6,7 +6,7 @@ Version: 0.2.3
 Release: 8
 Source0: http://mesh.dl.sourceforge.net/sourceforge/freevo/%{pkgname}-%{version}.tar.gz
 License: LGPL
-URL: http://sourceforge.net/projects/freevo/
+URL: https://sourceforge.net/projects/freevo/
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	python-devel
